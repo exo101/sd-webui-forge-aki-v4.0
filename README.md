@@ -25,7 +25,7 @@ ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forg
 ### 海外用户
 更新的Forge环境（由于体积较大无法方便上传只能如此了）  
 需要以下依赖：
-```
+
 diffusers==0.35.1
 Torch 2.7.0 (CUDA 12.8)+ xFormers 0.0.30
 transformers==4.53.1
