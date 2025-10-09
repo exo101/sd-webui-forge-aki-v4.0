@@ -1,5 +1,6 @@
 # Stable Diffusion WebUI Forge 环境
 旧整合包已不适用日益更新的AI应用与50系显卡，我为此更新了新整合包环境，补充落后的webui生态
+个人主页：https://www.bilibili.com/video/BV17ybrzvEVp?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37
 
 新整合包修复了ADetailer修脸插件，wd1.4标签器等bug
 
