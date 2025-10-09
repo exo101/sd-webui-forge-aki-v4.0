@@ -41,16 +41,10 @@ huggingface-hub==0.34.4
 - 不支持FLUX ControlNet
 
 
-模型都在网盘中
-<img width="1417" height="887" alt="Snipaste_2025-10-09_19-18-00" src="https://github.com/user-attachments/assets/c57b071e-b0e0-4973-a683-6da96740269d" />
-使用7z压缩软件进行解压整合包
+
 
 海外用户搜索模型名称下载
 https://huggingface.co/yeqiu168182/flux1-dev-kontext_fp8_scaled.safetensors/tree/main
-
-<img width="1613" height="455" alt="26" src="https://github.com/user-attachments/assets/4ef92d94-6229-4754-9f8c-4ff7fbac36c6" />
-
-
 
 ## 界面介绍
 
@@ -58,6 +52,8 @@ https://huggingface.co/yeqiu168182/flux1-dev-kontext_fp8_scaled.safetensors/tree
 GPU Weights (MB)滑动条的数值就是显存的容量：
 - 往左滑动是模型权重加载
 - 往右是模型计算空间
+<img width="1720" height="165" alt="11" src="https://github.com/user-attachments/assets/ad2cf67c-e7cd-4b12-8cd0-a4c5a6f134b6" />
+
 
 正常情况下：
 - 往右滑动过半，留出20%-40%的计算空间
@@ -78,7 +74,8 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 | ControlNet预处理器 | `sd-webui-forge-aki-v4.0\models\ControlNetPreprocessor` |
 | 插件目录 | `sd-webui-forge-aki-v4.0\extensions` |
 
-
+模型都在网盘中
+使用7z压缩软件进行解压整合包
 
 ## 各类模型加载方式
 
