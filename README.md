@@ -52,17 +52,12 @@ https://huggingface.co/yeqiu168182/flux1-dev-kontext_fp8_scaled.safetensors/tree
 GPU Weights (MB)滑动条的数值就是显存的容量：
 - 往左滑动是模型权重加载
 - 往右是模型计算空间
-<img width="1720" height="165" alt="11" src="https://github.com/user-attachments/assets/ad2cf67c-e7cd-4b12-8cd0-a4c5a6f134b6" />
-
-
 正常情况下：
 - 往右滑动过半，留出20%-40%的计算空间
 - 如果模型权重预留的空间不足，模型会加载失败
 - 如果模型计算空间不足，会生成时间变慢，程序崩溃爆显存
 
 <img width="1720" height="165" alt="11" src="https://github.com/user-attachments/assets/45008dd6-cb33-41f4-b9a2-a312d388cc61" />
-
-
 
 | 模型类型 | 目录路径 |
 |---------|---------|
@@ -85,6 +80,7 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 - 文本编码模型: `t5xxl_fp8_e4m3fn.safetensors`
 - CLIP模型: `clip_l.safetensors`
 - VAE模型: `flux-ae.safetensors`
+- flux参数设置
 <img width="1600" height="95" alt="24" src="https://github.com/user-attachments/assets/c94d496a-ad36-4218-9803-8fdaa986677e" />
 
 <img width="910" height="348" alt="123" src="https://github.com/user-attachments/assets/2f0b6081-ba91-454c-a4ef-8136f43a0373" />
@@ -93,10 +89,14 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 ### XL模型加载方式
 - 主模型（约6GB)
 - VAE模型: `sdxl_vae.safetensors`
+- XL参数设置
 <img width="1092" height="810" alt="25" src="https://github.com/user-attachments/assets/c52b9db3-fcc7-4c58-8434-adc0a306a6b6" />
 
 ### 1.5模型加载方式
 - 主模型（约2.3GB)
 - VAE模型: `vae-ft-mse-840000-ema-pruned.safetensors`
+  
+- 高清放大模型参数设置
+<img width="906" height="386" alt="22" src="https://github.com/user-attachments/assets/10fdcc9c-5baf-4513-b5e6-95ba03b843a4" />
 
 
