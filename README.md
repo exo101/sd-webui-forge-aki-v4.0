@@ -26,18 +26,16 @@ huggingface-hub==0.34.4
 
 此整合包支持，1.5 XL flux等模型。lora加载，XL ControlNet 等模块，不支持flux ControlNet 
 
-修复了ADetailer插件
-修复了WD 1.4标签器
 
 模型都在网盘中
 <img width="1417" height="887" alt="Snipaste_2025-10-09_19-18-00" src="https://github.com/user-attachments/assets/c57b071e-b0e0-4973-a683-6da96740269d" />
 使用7z压缩软件进行解压整合包
 
 海外用户搜索模型名称下载
-
 https://huggingface.co/yeqiu168182/flux1-dev-kontext_fp8_scaled.safetensors/tree/main
 
 <img width="1613" height="455" alt="26" src="https://github.com/user-attachments/assets/4ef92d94-6229-4754-9f8c-4ff7fbac36c6" />
+
 
 界面介绍
 GPU Weights (MB)滑动条的数值就是显存的容量
@@ -65,11 +63,16 @@ ControlNet预处理器目录：d-webui-forge-aki-v4.0\models\ControlNetPreproces
 
 插件目录：sd-webui-forge-aki-v4.0\extensions
 
-flux模型加载方式：主模型flux1-dev-fp8.safetensors，文本编码模型t5xxl_fp8_e4m3fn.safetensors，clip模型clip_l.safetensors，vae模型flux-ae.safetensors
 
-<img width="1600" height="95" alt="24" src="https://github.com/user-attachments/assets/c94d496a-ad36-4218-9803-8fdaa986677e" />
+
+flux模型加载方式
+
+主模型flux1-dev-fp8.safetensors，文本编码模型t5xxl_fp8_e4m3fn.safetensors，clip模型clip_l.safetensors，vae模型flux-ae.safetensors
 参数设置
+<img width="1600" height="95" alt="24" src="https://github.com/user-attachments/assets/c94d496a-ad36-4218-9803-8fdaa986677e" />
+
 <img width="910" height="348" alt="123" src="https://github.com/user-attachments/assets/2f0b6081-ba91-454c-a4ef-8136f43a0373" />
+
 
 XL模型加载方式：主模型（约6GB)，vae模型 sdxl_vae.safetensors
 <img width="1092" height="810" alt="25" src="https://github.com/user-attachments/assets/c52b9db3-fcc7-4c58-8434-adc0a306a6b6" />
