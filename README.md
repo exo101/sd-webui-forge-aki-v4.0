@@ -21,6 +21,7 @@ Torch 2.7.0 (CUDA 12.8)+ xFormers 0.0.30
 transformers==4.53.1
 
 huggingface-hub==0.34.4
+可参考首页的requirements_versions.txt依赖文件
 
 此整合包支持，1.5 XL flux等模型。lora加载，XL ControlNet 等模块，不支持flux ControlNet 
 
