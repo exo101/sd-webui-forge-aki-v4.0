@@ -28,6 +28,15 @@ huggingface-hub==0.34.4
 修复了ADetailer插件
 修复了WD 1.4标签器
 
+模型都在网盘中
+<img width="1417" height="887" alt="Snipaste_2025-10-09_19-18-00" src="https://github.com/user-attachments/assets/c57b071e-b0e0-4973-a683-6da96740269d" />
+使用7z压缩软件进行解压整合包
+
+海外用户模型此完整搜索下载
+https://huggingface.co/yeqiu168182/flux1-dev-kontext_fp8_scaled.safetensors/tree/main
+<img width="1613" height="455" alt="26" src="https://github.com/user-attachments/assets/4ef92d94-6229-4754-9f8c-4ff7fbac36c6" />
+
+
 模型路径介绍
 
 主模型目录：sd-webui-forge-aki-v4.0\models\Stable-diffusion
