@@ -39,6 +39,15 @@ https://huggingface.co/yeqiu168182/flux1-dev-kontext_fp8_scaled.safetensors/tree
 
 <img width="1613" height="455" alt="26" src="https://github.com/user-attachments/assets/4ef92d94-6229-4754-9f8c-4ff7fbac36c6" />
 
+界面介绍
+GPU Weights (MB)滑动条的数值就是显存的容量
+往左滑动是模型权重加载，往右是模型计算空间
+正常的情况是，往右滑动过半，留出百分之20，30，40，之间的计算空间
+如果模型权重预留的空间不足模型会加载失败，模型计算空间空间不足会生成时间变慢，程序崩溃爆显存
+
+<img width="1720" height="165" alt="11" src="https://github.com/user-attachments/assets/45008dd6-cb33-41f4-b9a2-a312d388cc61" />
+
+
 
 模型路径介绍
 
