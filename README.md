@@ -92,11 +92,12 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 - XL参数设置
 <img width="1092" height="810" alt="25" src="https://github.com/user-attachments/assets/c52b9db3-fcc7-4c58-8434-adc0a306a6b6" />
 
-### 1.5模型加载方式
+### 1.5模型加载方式与XL无差别
 - 主模型（约2.3GB)
 - VAE模型: `vae-ft-mse-840000-ema-pruned.safetensors`
   
 - 高清放大模型参数设置
-<img width="906" height="386" alt="22" src="https://github.com/user-attachments/assets/10fdcc9c-5baf-4513-b5e6-95ba03b843a4" />
+<img width="880" height="187" alt="22" src="https://github.com/user-attachments/assets/d9936900-fea9-43e8-928d-bf1ef6721582" />
+
 
 
