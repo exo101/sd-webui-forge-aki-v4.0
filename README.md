@@ -80,7 +80,7 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 - 文本编码模型: `t5xxl_fp8_e4m3fn.safetensors`
 - CLIP模型: `clip_l.safetensors`
 - VAE模型: `flux-ae.safetensors`
-- flux参数设置
+- flux参数设置：采样方法Euler，调度器Simple， CFG引导数3.5，迭代步数20-35
 <img width="1600" height="95" alt="24" src="https://github.com/user-attachments/assets/c94d496a-ad36-4218-9803-8fdaa986677e" />
 
 <img width="910" height="348" alt="123" src="https://github.com/user-attachments/assets/2f0b6081-ba91-454c-a4ef-8136f43a0373" />
@@ -89,7 +89,7 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 ### XL模型加载方式
 - 主模型（约6GB)
 - VAE模型: `sdxl_vae.safetensors`
-- XL参数设置
+- XL参数设置：采样方法DPM++ 2M SDE，调度器Karras， CFG引导数7，迭代步数20-35
 <img width="1092" height="810" alt="25" src="https://github.com/user-attachments/assets/c52b9db3-fcc7-4c58-8434-adc0a306a6b6" />
 
 ### 1.5模型加载方式与XL无差别
