@@ -119,6 +119,6 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 - 选择模型wd14-vit-v2-git
 - <img width="879" height="428" alt="66" src="https://github.com/user-attachments/assets/ec5cac8f-6ec7-434a-857a-1066908320ef" />
 - <img width="1805" height="759" alt="77" src="https://github.com/user-attachments/assets/2b2caba2-a8e7-4327-a9c5-cc349a13a530" />
-- 整合自带的标签器识别的关键远不如Qwen-VL、LLaMA-Vision等视觉模型来的关键词质量与丰富，准确率很低，只方便与快速识别与制作二次元动漫人物
+- 整合自带的标签器识别的提示词远不如Qwen-VL、LLaMA-Vision等视觉模型来的提示词质量与丰富，准确率很低，只方便与快速识别与制作二次元动漫人物
 - 高质量提示词请使用多模态插件 https://github.com/exo101/sd-webui-MultiModal
 
