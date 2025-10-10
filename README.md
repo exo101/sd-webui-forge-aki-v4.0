@@ -106,11 +106,10 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 ### PS AI插件
 - ps 2023最为稳定
 - 由两个包组成才行完成运行
-- 1.整合包ps插件的部分Auto-Photoshop-StableDiffusion-Plugin
-- 2.PS插件部分 Auto.Photoshop.SD.plugin_v1.4.1
-- 1.整合包ps插件的部分，已安装在整合包当中无需再下载安装，2.PS插件部分 https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin/releases/tag/v1.4.1
-<img width="681" height="469" alt="44" src="https://github.com/user-attachments/assets/4e0cc8c8-d961-4c4d-ab45-87c04206fa2b" />
-<img width="1860" height="1024" alt="33" src="https://github.com/user-attachments/assets/9f9ec311-7a3d-4d12-bc45-5a3a317e0ddb" />
+- 1.整合包ps插件的部分Auto-Photoshop-StableDiffusion-Plugin,已安装在整合包当中无需再下载安装
+- 2.PS插件部分 Auto.Photoshop.SD.plugin_v1.4.1 https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin/releases/tag/v1.4.1
+ <img width="691" height="493" alt="88" src="https://github.com/user-attachments/assets/19f0cc5a-68f7-42d0-89ef-8fbedf995cda" />
+ <img width="1860" height="1024" alt="33" src="https://github.com/user-attachments/assets/9f9ec311-7a3d-4d12-bc45-5a3a317e0ddb" />
 
 - 插件设置：可同时链接Webui与comfyui，Automatic111就是Webui的链接后端，zh_CN设置为中文
 - <img width="614" height="804" alt="55" src="https://github.com/user-attachments/assets/dce00245-cdb3-49ca-a421-6d9cf348f585" />
