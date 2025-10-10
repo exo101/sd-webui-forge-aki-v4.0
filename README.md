@@ -21,7 +21,8 @@ ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forg
 ### 大陆国内用户
 通过百度网盘分享的文件：更新环境库的webui Forge整合包  
 链接: https://pan.baidu.com/s/1FL7WVbcdvHfMtGUs-QOTVg 提取码: jwmu
-###我用夸克网盘给你分享了「sd-webui-forge-aki-v4.0.7z」
+
+### 夸克网盘分享「sd-webui-forge-aki-v4.0.7z」
 链接：https://pan.quark.cn/s/4a4a0b679c17
 提取码：7NVH
 
