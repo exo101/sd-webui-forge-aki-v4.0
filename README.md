@@ -108,7 +108,8 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 - 由两个包组成才行完成运行
 - 1.整合包ps插件的部分Auto-Photoshop-StableDiffusion-Plugin,已安装在整合包当中无需再下载安装
 - 2.PS插件部分放置ps2023\Adobe Photoshop 2023\Plug-ins
--
+-<img width="671" height="312" alt="Snipaste_2025-10-11_11-45-18" src="https://github.com/user-attachments/assets/a57b5787-120c-42af-9df1-1a2b677e2348" />
+
 - 地址 Auto.Photoshop.SD.plugin_v1.4.1 https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin/releases/tag/v1.4.1
  <img width="691" height="493" alt="88" src="https://github.com/user-attachments/assets/19f0cc5a-68f7-42d0-89ef-8fbedf995cda" />
  <img width="1860" height="1024" alt="33" src="https://github.com/user-attachments/assets/9f9ec311-7a3d-4d12-bc45-5a3a317e0ddb" />
