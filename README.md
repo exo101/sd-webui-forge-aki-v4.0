@@ -100,7 +100,8 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 - 主模型（约2.3GB)参数与XL无差别
 - VAE模型: `vae-ft-mse-840000-ema-pruned.safetensors`
   
-- 高清放大模型参数设置
+### 高清放大模型参数设置
+低配置用户需要调低基础尺寸，开启放大2倍，如果基础尺寸很大，放大倍数就要调低，模型参数越大放大的尺寸需要的显存压力也会越大
 <img width="880" height="187" alt="22" src="https://github.com/user-attachments/assets/d9936900-fea9-43e8-928d-bf1ef6721582" />
 
 ### PS AI插件
