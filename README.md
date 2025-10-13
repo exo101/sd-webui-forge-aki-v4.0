@@ -55,7 +55,7 @@ qwen-image, qwen-image-edit, FLUX, FLUX-krea, XL ,1.5,
 更新的Forge环境（由于体积较大无法方便上传只能如此了）  
 需要以下依赖：
 
-diffusers==0.35.1
+diffusers==0.36.0.dev0
 Torch 2.7.0 (CUDA 12.8)+ xFormers 0.0.30
 transformers==4.53.1
 huggingface-hub==0.34.4
