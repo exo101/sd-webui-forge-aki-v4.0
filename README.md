@@ -36,7 +36,8 @@ ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forg
 
 ## 模型支持情况
 
-已支持模型Qwen-Image等14B或20B参数量的模型采用nunchaku量化应用环境可快速生图,后续可更根据量化库更新FLUX ControlNet，Qwen-Image ControlNet
+已支持模型Qwen-Image等14B或20B参数量的模型采用nunchaku量化应用环境可快速生图,后续可更根据量化库更新，FLUX ControlNet，Qwen-Image ControlNet
+
 qwen-image, qwen-image-edit, FLUX, FLUX-krea, XL ,1.5, 
 
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，好理解，适合入门，熟悉之后再接触ComfyUI更为合适。
