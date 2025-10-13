@@ -32,29 +32,13 @@ https://github.com/exo101/sd-webui-MultiModal/tree/main
 
 ## ControlNet 模块说明
 
-ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forge环境支持FLUX ControlNet，但未能成功，无法与XL ControlNet张量同时兼容在一个插件内。由于对ControlNet的设计代码不是很了解，即使是参考哩布哩布平台也没有实现FLUX ControlNet模块。这个问题比较复杂，只能等技术大佬解决。
+ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forge环境支持FLUX ControlNet，但未能成功，无法与XL ControlNet张量同时兼容在一个插件内。由于对ControlNet的设计代码不是很了解，即使是参考哩布哩布平台也没有实现FLUX ControlNet模块。这个问题比较复杂
 
-## 模型支持情况
-
-已支持模型Qwen-Image等14B或20B参数量的模型采用nunchaku量化应用环境可快速生图,后续可更根据量化库更新，FLUX ControlNet，Qwen-Image ControlNet
-
-qwen-image, qwen-image-edit, FLUX, FLUX-krea, XL ,1.5, 
+后续可更根据量化库更新，FLUX ControlNet，Qwen-Image ControlNet
 
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，好理解，适合入门，熟悉之后再接触ComfyUI更为合适。
 
-## 下载地址
-
-### 大陆国内用户
-通过百度网盘分享的文件：更新环境库的webui Forge整合包  
-链接: https://pan.baidu.com/s/1FL7WVbcdvHfMtGUs-QOTVg 提取码: jwmu
-
-### 夸克网盘分享「sd-webui-forge-aki-v4.0.7z」
-链接：https://pan.quark.cn/s/4a4a0b679c17
-提取码：7NVH
-
-### 海外用户
-更新的Forge环境（由于体积较大无法方便上传只能如此了）  
-需要以下依赖：
+## 下载地址可查看个人主页视频简介下方：https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37
 
 diffusers==0.36.0.dev0
 Torch 2.7.0 (CUDA 12.8)+ xFormers 0.0.30
@@ -63,18 +47,20 @@ huggingface-hub==0.34.4
 可参考首页的requirements_versions.txt依赖文件
 
 此整合包支持：
-- 1.5模型
-- XL模型 
-- FLUX模型
-- LoRA加载
-- XL ControlNet等模块
+- qwen-image-edit
+- qwen-image
+- qwenVL
+- Index-TTS2
+- LatentSync
+- Ollama,deepseek
+- Segment Anything
+- FLUX.1-Kontext
+- FLUX
+- 1.5
+- XL
+- LoRA
+- XL ControlNet
 - 不支持FLUX ControlNet
-
-
-
-
-海外用户搜索模型名称下载
-https://huggingface.co/yeqiu168182/flux1-dev-kontext_fp8_scaled.safetensors/tree/main
 
 ## 界面介绍
 
