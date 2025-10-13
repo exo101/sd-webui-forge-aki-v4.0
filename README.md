@@ -36,7 +36,8 @@ ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forg
 
 ## 模型支持情况
 
-最新更新的视频生成模型wan2.2，Qwen-Image等14B或20B参数量的模型应用环境倒是支持的，但是部署起来极其消耗显存。对于diffusion库的加载方式和配置要求优化确实不如ComfyUI。不过生图模型还是够用的，因为WebUI Forge使用的也是类似的ComfyUI优化策略。
+已支持模型Qwen-Image等14B或20B参数量的模型采用nunchaku量化应用环境可快速生图,后续可更根据量化库更新FLUX ControlNet，Qwen-Image ControlNet
+qwen-image, qwen-image-edit, FLUX, FLUX-krea, XL ,1.5, 
 
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，好理解，适合入门，熟悉之后再接触ComfyUI更为合适。
 
