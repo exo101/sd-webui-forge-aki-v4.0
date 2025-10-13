@@ -2,6 +2,30 @@
 
 ## 简介
 
+2025/10/12 更新多模态SD插件12版本
+https://github.com/exo101/sd-webui-MultiModal/tree/main
+
+一个为 Stable Diffusion WebUI Forge 设计的多功能集成插件
+
+## 系统要求
+
+- 显卡：最低推荐 NVIDIA RTX 3060 /中端NVIDIA RTX 4070/中高端NVIDIA RTX 5070ti
+- 显存：至少 12GB
+- 内存：推荐 32/64GB 
+     
+## 核心功能
+
+- 📚 **资源汇总**: 集中管理各类资源和公告信息
+- 🖼️ **图像识别与语言交互**: 支持多种视觉和语言模型，可进行图像描述、内容分析等
+- ✂️ **智能抠图**: 基于 rembg 实现一键背景移除
+- 🖌️ **图像分割**: 集成 Segment Anything Model (SAM) 进行精确图像分割
+- 🧹 **图像清理**: 提供图像清理和修复功能
+- 🎬 **视频关键帧提取**: 从视频中提取关键帧用于进一步处理
+- 🤖 **数字人视频生成**: 基于 LatentSync 实现音频驱动的数字人视频生成
+- 🔊 **TTS语音合成**: 集成 Index-TTS 实现高质量文本转语音
+- 🌟 **FLUX.1 图像编辑**: 集成 FLUX.1-Kontext 进行上下文感知的图像编辑
+- 🌟 **Qwen-Image复杂文本渲染和qwen-image-edit-2509精确图像编辑 
+
 旧整合包已不适用日益更新的AI应用与50系显卡，为此我更新了新整合包环境，补充落后的webui生态。
 
 新整合包修复了ADetailer修脸插件，wd1.4标签器等bug。
