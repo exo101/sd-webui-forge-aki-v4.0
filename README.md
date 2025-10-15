@@ -42,12 +42,6 @@ ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forg
 
 [https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805)
 
-diffusers==0.36.0.dev0
-Torch 2.7.0 (CUDA 12.8)+ xFormers 0.0.30
-transformers==4.53.1
-huggingface-hub==0.34.4
-可参考首页的requirements_versions.txt依赖文件
-
 此整合包支持：
 - qwen-image-edit
 - qwen-image
