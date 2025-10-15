@@ -38,7 +38,9 @@ ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forg
 
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，好理解，适合入门，熟悉之后再接触ComfyUI更为合适。
 
-## 下载地址可查看个人主页视频简介下方：https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37
+## 下载地址可查看个人主页视频简介下方：
+
+[https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805)
 
 diffusers==0.36.0.dev0
 Torch 2.7.0 (CUDA 12.8)+ xFormers 0.0.30
