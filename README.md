@@ -112,6 +112,56 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 低配置用户需要调低基础尺寸，开启放大2倍，如果基础尺寸很大，放大倍数就要调低，模型参数越大放大的尺寸需要的显存压力也会越大
 <img width="880" height="187" alt="22" src="https://github.com/user-attachments/assets/d9936900-fea9-43e8-928d-bf1ef6721582" />
 
+###ControlNet使用说明
+ 如 control_v11p_sd15s2_lineart_anime.pth标识带有sd15就是1.5模型使用的，而1.5大模型只有2gb左右
+如 controlnet-union-sdxl-1.0.safetensors标识sdxl就是XL模型使用的，而XL模型大约6gb左右
+
+在我视频简介下方提供的下载链接中提供的controlnet模型和预处理器是不全的，缺少的自行下载，我下载的是常用的，不常用的就没有下载
+
+<img width="675" height="375" alt="31354" src="https://github.com/user-attachments/assets/24587b4e-c8d9-4c07-a92f-914f57be66db" />
+
+<img width="859" height="766" alt="123123" src="https://github.com/user-attachments/assets/f516969f-5cb4-4aab-a812-437e751d5520" />
+
+推荐使用controlnet-union-sdxl-1.0.safetensors，这是一个综合型ControlNet模型，包括了深度，线稿，open pose
+
+使用ControlNet模型时记得查看模型之间的对应关系，1.5大模型对应1.5的ControlNet模型，XL大模型对应XL的ControlNet模型 
+<img width="877" height="239" alt="34234" src="https://github.com/user-attachments/assets/e7377a39-5d70-451c-8a49-d210c48c7f42" />
+ControlNet使用由预处理器和ControlNet模型共同协作才能完成，缺少哪一个，或者预处理器与模型关系不对应都会出现错误
+<img width="877" height="239" alt="34234" src="https://github.com/user-attachments/assets/09a3d52f-5475-4748-9ab3-3087af3a4e04" />
+
+大多数人出现的错误就是缺少预处理器，或者网络无法链接下载
+
+<img width="1278" height="786" alt="12431243243" src="https://github.com/user-attachments/assets/aa986e32-fe26-45ad-a5f7-cbc7f48142d5" />
+查看后台日志，会提示你出现了那些错误，比如我使用了depth_anything这个预处理器，出现了错误
+
+<img width="878" height="724" alt="4456" src="https://github.com/user-attachments/assets/60030efa-515f-4cae-a93d-65ad56eff862" />
+
+后端提示
+
+<img width="1312" height="699" alt="454654" src="https://github.com/user-attachments/assets/3907936d-1b51-430e-a388-879f528032ad" />
+
+Downloading: "https://huggingface.co/spaces/LiheYoung/Depth-Anything/resolve/main/checkpoints/depth_anything_vitl14.pth" to D:\sd-webui-forge-aki-v4.0\models\ControlNetPreprocessor\depth_anything\depth_anything_vitl14.pth
+Traceback (most recent call last):
+  File "D:\sd-webui-forge-aki-v4.0\python\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\sd-webui-forge-aki-v4.0\python\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\sd-webui-forge-aki-v4.0\python\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+那么就应该搜索这个模型depth_anything_vitl14.pth，自行下载到预处理目录
+
+<img width="1327" height="960" alt="46456547" src="https://github.com/user-attachments/assets/c75a1022-7aca-4b03-9054-a93962876c7a" />
+<img width="1274" height="522" alt="34478" src="https://github.com/user-attachments/assets/cebf370f-9561-4d6a-a953-cb6e5ac3c93e" />
+
+现在就没有了错误
+
+<img width="868" height="742" alt="141241415" src="https://github.com/user-attachments/assets/99d58ac6-2c15-4e41-8541-4d8bb77b92ae" />
+
+<img width="1797" height="844" alt="45644" src="https://github.com/user-attachments/assets/56a6c2ed-c187-4ce6-b713-ce7be41ee264" />
+
 ### PS AI插件
 - ps 2023最为稳定
 - 由两个包组成才行完成运行
