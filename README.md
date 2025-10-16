@@ -42,21 +42,10 @@ ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forg
 
 [https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805)
 
-此整合包支持：
-- qwen-image-edit
-- qwen-image
-- qwenVL
-- Index-TTS2
-- LatentSync
-- Ollama,deepseek
-- Segment Anything
-- FLUX.1-Kontext
-- FLUX
-- 1.5
-- XL
-- LoRA
-- XL ControlNet
-- 不支持FLUX ControlNet
+  插件支持：
+  
+| `qwen-image-edit2509\qwen-image\` | `qwenVL` | `Index-TTS2` | `qwenVL` | `LatentSync` | `Ollama` |
+| `deepseek` | `Segment Anything` | `FLUX.1-Kontext` | `FLUX` | `XL` | `XL ControlNet` |`不支持FLUX ControlNet` |
 
 ## 界面介绍
 
