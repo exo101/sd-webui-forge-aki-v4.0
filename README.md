@@ -112,7 +112,8 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 低配置用户需要调低基础尺寸，开启放大2倍，如果基础尺寸很大，放大倍数就要调低，模型参数越大放大的尺寸需要的显存压力也会越大
 <img width="880" height="187" alt="22" src="https://github.com/user-attachments/assets/d9936900-fea9-43e8-928d-bf1ef6721582" />
 
-###ControlNet使用说明
+### ControlNet使用说明
+
  如 control_v11p_sd15s2_lineart_anime.pth标识带有sd15就是1.5模型使用的，而1.5大模型只有2gb左右
 如 controlnet-union-sdxl-1.0.safetensors标识sdxl就是XL模型使用的，而XL模型大约6gb左右
 
