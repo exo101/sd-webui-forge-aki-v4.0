@@ -125,7 +125,7 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 推荐使用controlnet-union-sdxl-1.0.safetensors，这是一个综合型ControlNet模型，包括了深度，线稿，open pose
 
 使用ControlNet模型时记得查看模型之间的对应关系，1.5大模型对应1.5的ControlNet模型，XL大模型对应XL的ControlNet模型 
-<img width="877" height="239" alt="34234" src="https://github.com/user-attachments/assets/e7377a39-5d70-451c-8a49-d210c48c7f42" />
+
 ControlNet使用由预处理器和ControlNet模型共同协作才能完成，缺少哪一个，或者预处理器与模型关系不对应都会出现错误
 <img width="877" height="239" alt="34234" src="https://github.com/user-attachments/assets/09a3d52f-5475-4748-9ab3-3087af3a4e04" />
 
