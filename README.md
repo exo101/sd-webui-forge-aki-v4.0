@@ -30,12 +30,17 @@ https://github.com/exo101/sd-webui-MultiModal/tree/main
 
 新整合包修复了ADetailer修脸插件，wd1.4标签器等bug。
 
-2025/10/18 多模态插件12 更新了qwen-image ControlNet
+2025/10/18 
+webui更新至sd-webui-forge-aki-v4.2
+更新了diffusers==0.36.0.dev0
+借鉴comfyui中nunchaku量化库https://github.com/nunchaku-tech/nunchaku
+安装了nunchaku加速轮子大大提高了qwen模型生成速度
+
+多模态插件12 更新了qwen-image ControlNet
 同时实现了深度，姿势，线稿，软边缘
 
 https://github.com/exo101/sd-webui-MultiModal
-ControlNet模块不支持FLUX ControlNet模型
-后续可更根据情况更新，FLUX ControlNet
+ControlNet模块不支持FLUX ControlNet模型，后续可更根据情况更新
 
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，好理解，适合入门，熟悉之后再接触ComfyUI更为合适。
 
