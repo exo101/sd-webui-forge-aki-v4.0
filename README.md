@@ -30,11 +30,12 @@ https://github.com/exo101/sd-webui-MultiModal/tree/main
 
 新整合包修复了ADetailer修脸插件，wd1.4标签器等bug。
 
-## ControlNet 模块说明
+2025/10/18 多模态插件12 更新了qwen-image ControlNet
+同时实现了深度，姿势，线稿，软边缘
 
-ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forge环境支持FLUX ControlNet，但未能成功，无法与XL ControlNet张量同时兼容在一个插件内。由于对ControlNet的设计代码不是很了解，即使是参考哩布哩布平台也没有实现FLUX ControlNet模块。这个问题比较复杂
-
-后续可更根据量化库更新，FLUX ControlNet，Qwen-Image ControlNet
+https://github.com/exo101/sd-webui-MultiModal
+ControlNet模块不支持FLUX ControlNet模型
+后续可更根据情况更新，FLUX ControlNet
 
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，好理解，适合入门，熟悉之后再接触ComfyUI更为合适。
 
@@ -44,7 +45,7 @@ ControlNet模块不支持FLUX ControlNet模型。在此前我们尝试过让Forg
 
   插件支持：
   
-| `qwen-image-edit2509\qwen-image\` | `qwenVL` | `Index-TTS2` | `qwenVL` | `LatentSync` | `Ollama` |
+| `qwen-image-edit2509\qwen-image\`|` qwen-image-ControlNet`| `qwenVL` | `Index-TTS2` | `qwenVL` | `LatentSync` | `Ollama` |
 | `deepseek` | `Segment Anything` | `FLUX.1-Kontext` | `FLUX` | `XL` | `XL ControlNet` |`不支持FLUX ControlNet` |
 
 ## 界面介绍
