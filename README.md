@@ -123,12 +123,6 @@ ControlNet使用由预处理器和ControlNet模型共同协作才能完成，缺
 <img width="1278" height="786" alt="12431243243" src="https://github.com/user-attachments/assets/aa986e32-fe26-45ad-a5f7-cbc7f48142d5" />
 查看后台日志，会提示你出现了那些错误，比如我使用了depth_anything这个预处理器，出现了错误
 
-<img width="878" height="724" alt="4456" src="https://github.com/user-attachments/assets/60030efa-515f-4cae-a93d-65ad56eff862" />
-
-后端提示
-
-<img width="1312" height="699" alt="454654" src="https://github.com/user-attachments/assets/3907936d-1b51-430e-a388-879f528032ad" />
-
 Downloading: "https://huggingface.co/spaces/LiheYoung/Depth-Anything/resolve/main/checkpoints/depth_anything_vitl14.pth" to D:\sd-webui-forge-aki-v4.0\models\ControlNetPreprocessor\depth_anything\depth_anything_vitl14.pth
 Traceback (most recent call last):
   File "D:\sd-webui-forge-aki-v4.0\python\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
