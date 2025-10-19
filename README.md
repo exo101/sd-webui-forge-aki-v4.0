@@ -83,10 +83,10 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 
 ### FLUX模型加载方式
 需要以下模型文件：
-- 主模型: `flux1-dev-fp8.safetensors`
-- 文本编码模型: `t5xxl_fp8_e4m3fn.safetensors`
-- CLIP模型: `clip_l.safetensors`
-- VAE模型: `flux-ae.safetensors`
+- 主模型: `flux1-dev-fp8.safetensors` 目录| `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
+- 文本编码模型: `t5xxl_fp8_e4m3fn.safetensors`目录| `sd-webui-forge-aki-v4.0\models\VAE` |
+- CLIP模型: `clip_l.safetensors`| `sd-webui-forge-aki-v4.0\models\VAE` |
+- VAE模型: `flux-ae.safetensors`| `sd-webui-forge-aki-v4.0\models\VAE` |
 - flux参数设置：采样方法Euler，调度器Simple， CFG引导数3.5，迭代步数20-35
 <img width="1600" height="95" alt="24" src="https://github.com/user-attachments/assets/c94d496a-ad36-4218-9803-8fdaa986677e" />
 
@@ -94,14 +94,15 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 
 
 ### XL模型加载方式
-- 主模型（约6GB)
-- VAE模型: `sdxl_vae.safetensors`
+- 主模型（约6GB)Dream Anime XL _ 筑梦动漫XL_v2.0 - 漫笔爱恋 目录 | `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
+- VAE模型: `sdxl_vae.safetensors`目录 | `sd-webui-forge-aki-v4.0\models\VAE` |
 - XL参数设置：采样方法DPM++ 2M SDE，调度器Karras， CFG引导数7，迭代步数20-35
 <img width="1092" height="810" alt="25" src="https://github.com/user-attachments/assets/c52b9db3-fcc7-4c58-8434-adc0a306a6b6" />
 
 ### 1.5模型
-- 主模型（约2.3GB)参数与XL无差别
-- VAE模型: `vae-ft-mse-840000-ema-pruned.safetensors`
+- 主模型（约2.3GB) hellopure_V30a 目录 | `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
+- 参数与XL无差别
+- VAE模型: `vae-ft-mse-840000-ema-pruned.safetensors`目录| `sd-webui-forge-aki-v4.0\models\VAE` |
   
 ### 高清放大模型参数设置
 低配置用户需要调低基础尺寸，开启放大2倍，如果基础尺寸很大，放大倍数就要调低，模型参数越大放大的尺寸需要的显存压力也会越大
