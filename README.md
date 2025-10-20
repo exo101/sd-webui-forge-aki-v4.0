@@ -42,8 +42,8 @@
 
 [https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805)
 
-  插件支持：
-  
+ ## 多模态插件支持
+ 
 | `qwen-image-edit2509\qwen-image\`|` qwen-image-ControlNet`| `qwenVL` | `Index-TTS2` | `qwenVL` | `LatentSync` | `Ollama` |
 | `deepseek` | `Segment Anything` | `FLUX.1-Kontext` | `FLUX` | `XL` | `XL ControlNet` |`不支持FLUX ControlNet` |
 
