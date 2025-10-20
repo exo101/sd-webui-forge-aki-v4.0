@@ -111,7 +111,7 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 ### ControlNet使用说明
 
  如 control_v11p_sd15s2_lineart_anime.pth标识带有sd15就是1.5模型使用的，而1.5大模型只有2gb左右
-如 controlnet-union-sdxl-1.0.safetensors标识sdxl就是XL模型使用的，而XL模型大约6gb左右
+如 controlnet-union-sdxl-1.0_promax.safetensors标识sdxl就是XL模型使用的，而XL模型大约6gb左右
 
 在我视频简介下方提供的下载链接中提供的controlnet模型和预处理器是不全的，缺少的自行下载，我下载的是常用的，不常用的就没有下载
 
@@ -119,7 +119,7 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 
 <img width="859" height="766" alt="123123" src="https://github.com/user-attachments/assets/f516969f-5cb4-4aab-a812-437e751d5520" />
 
-推荐使用controlnet-union-sdxl-1.0.safetensors，这是一个综合型ControlNet模型，包括了深度，线稿，open pose
+推荐使用controlnet-union-sdxl-1.0_promax.safetensors，这是一个综合型ControlNet模型，包括了深度，线稿，open pose
 
 使用ControlNet模型时记得查看模型之间的对应关系，1.5大模型对应1.5的ControlNet模型，XL大模型对应XL的ControlNet模型 
 
