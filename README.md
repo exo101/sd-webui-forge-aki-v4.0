@@ -28,7 +28,7 @@
 ### 2025/10/20：webui更新至d-webui-forge-aki-v4.3
 - 修复 1.5 ControlNet与XL ControlNet 预处理器bug
 -  添加了综合性XL ControlNet 模型以及预处理器至网盘controlnet-union-sdxl-1.0_promax.safetensors
--  
+   
 ### 2025/10/18 ：webui更新至sd-webui-forge-aki-v4.2 
 - 更新了diffusers==0.36.0.dev0
 - 借鉴comfyui中nunchaku量化库安装了nunchaku加速轮子大大提高了qwen模型生成速度
