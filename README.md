@@ -2,9 +2,6 @@
 
 ## 简介
 
-2025/10/12 更新多模态SD插件12版本
-https://github.com/exo101/sd-webui-MultiModal/tree/main
-
 一个为 Stable Diffusion WebUI Forge 设计的多功能集成插件
 
 ## 系统要求
@@ -28,19 +25,25 @@ https://github.com/exo101/sd-webui-MultiModal/tree/main
 
 旧整合包已不适用日益更新的AI应用与50系显卡，为此我更新了新整合包环境，补充落后的webui生态。
 
-新整合包修复了ADetailer修脸插件，wd1.4标签器等bug。
+2025/10/20：webui更新至d-webui-forge-aki-v4.3
 
-2025/10/18 
-webui更新至sd-webui-forge-aki-v4.2
+修复 1.5 ControlNet与XL ControlNet 预处理器bug
+
+添加了综合性XL ControlNet 模型以及预处理器至网盘controlnet-union-sdxl-1.0_promax.safetensors
+
+2025/10/18 ：webui更新至sd-webui-forge-aki-v4.2
+
 更新了diffusers==0.36.0.dev0
-借鉴comfyui中nunchaku量化库https://github.com/nunchaku-tech/nunchaku
-安装了nunchaku加速轮子大大提高了qwen模型生成速度
 
-多模态插件12 更新了qwen-image ControlNet
-同时实现了深度，姿势，线稿，软边缘
+借鉴comfyui中nunchaku量化库安装了nunchaku加速轮子大大提高了qwen模型生成速度
+
+多模态插件12 更新了qwen-image ControlNet，同时实现了深度，姿势，线稿，软边缘
 
 https://github.com/exo101/sd-webui-MultiModal
+
 ControlNet模块不支持FLUX ControlNet模型，后续可更根据情况更新
+
+新整合包修复了ADetailer修脸插件，wd1.4标签器等bug。
 
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，好理解，适合入门，熟悉之后再接触ComfyUI更为合适。
 
