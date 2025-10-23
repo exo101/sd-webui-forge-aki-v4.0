@@ -25,7 +25,7 @@
 
 旧整合包已不适用日益更新的AI应用与50系显卡，为此我更新了新整合包环境，补充落后的webui生态。
 
-### 2025/10/20：webui更新至d-webui-forge-aki-v4.3
+### 2025/10/20：webui更新至webui-forge-aki-v4.3
 - 修复 1.5 ControlNet与XL ControlNet 预处理器bug
 -  添加了综合性XL ControlNet 模型以及预处理器至网盘controlnet-union-sdxl-1.0_promax.safetensors
 -  promax版本可同时实现线稿，深度，姿势，软边缘，不必下载任何XL ControlNet模型
