@@ -147,8 +147,6 @@ TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答�
 
 现在就没有了错误
 
-<img width="868" height="742" alt="141241415" src="https://github.com/user-attachments/assets/99d58ac6-2c15-4e41-8541-4d8bb77b92ae" />
-
 <img width="1797" height="844" alt="45644" src="https://github.com/user-attachments/assets/56a6c2ed-c187-4ce6-b713-ce7be41ee264" />
 
 ### PS AI插件
