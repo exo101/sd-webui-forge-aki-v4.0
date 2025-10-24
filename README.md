@@ -2,7 +2,7 @@
 
 ## 简介
 
-一个为 Stable Diffusion WebUI Forge 设计的多功能集成插件
+一个多功能ai处理图像的工具
 
 ## 系统要求
 
