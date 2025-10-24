@@ -69,10 +69,10 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 
 ### FLUX模型加载方式
 需要以下模型文件：
-- 主模型: `flux1-dev-fp8.safetensors` 目录| `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
-- 文本编码模型: `t5xxl_fp8_e4m3fn.safetensors`目录| `sd-webui-forge-aki-v4.0\models\VAE` |
-- CLIP模型: `clip_l.safetensors`目录| `sd-webui-forge-aki-v4.0\models\VAE` |
-- VAE模型: `flux-ae.safetensors`目录| `sd-webui-forge-aki-v4.0\models\VAE` |
+- 主模型: `flux1-dev-fp8.safetensors`         目录| `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
+- 文本编码模型: `t5xxl_fp8_e4m3fn.safetensors` 目录| `sd-webui-forge-aki-v4.0\models\VAE` |
+- CLIP模型: `clip_l.safetensors`              目录| `sd-webui-forge-aki-v4.0\models\VAE` |
+- VAE模型: `flux-ae.safetensors`              目录| `sd-webui-forge-aki-v4.0\models\VAE` |
 - flux参数设置：采样方法Euler，调度器Simple， CFG引导数3.5，迭代步数20-35
 <img width="1600" height="95" alt="24" src="https://github.com/user-attachments/assets/c94d496a-ad36-4218-9803-8fdaa986677e" />
 
