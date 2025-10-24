@@ -59,11 +59,13 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 | 图像输出目录 | `sd-webui-forge-aki-v4.3\outputs` |
 | 修脸插件模型目录 |`sd-webui-forge-aki-v4.3\models\adetailer` |
 | ps ai插件目录 |`ps2023\Adobe Photoshop 2023\Plug-ins` |
+| 换脸插件目录 |`sd-webui-forge-aki-v4.4\extensions\sd-webui-reactor` |
 
 - 1.安装使用7z2501-x64.exe压缩软件进行解压整合包
 - 2.首次使用整合包需要安装启动器运行依赖-dotnet-6.0.11.exe
 - 3.python-3.10.10-amd64文件为非强制性安装，可选项，整合包自带python，不装也没关系，只有编码人员或非常熟练的人员才会用到
-- <img width="906" height="595" alt="QQ20251023-182725" src="https://github.com/user-attachments/assets/acee3135-9a7e-41f6-9670-de001f48cac2" />
+- <img width="1318" height="746" alt="2524534" src="https://github.com/user-attachments/assets/90678b2b-915b-4d68-b9ee-daedbce4fd16" />
+
 
 ## 各类模型加载方式
 
