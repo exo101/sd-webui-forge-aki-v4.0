@@ -9,13 +9,15 @@
      
 
 旧整合包已不适用日益更新的AI应用与50系显卡，为此我更新了新整合包环境，补充落后的webui生态。
+- 2025/10/24 webui frogr 整合包更新之4.4版本
+- 2025/10/24 支持qwen3VL需要transformers==4.57.0，但会牺牲Index-TTS2语音合成功能使用，因为Index-TTS2需要的是transformers==4.52.1版本，两者存在冲突
+- 2025/10/24 更新完善qwen-image ControlNet实现多个变体预处理器
 
-### 2025/10/20：webui更新至webui-forge-aki-v4.3
+- 2025/10/20：webui更新至webui-forge-aki-v4.3
 - 修复 1.5 ControlNet与XL ControlNet 预处理器bug
 -  添加了综合性XL ControlNet 模型以及预处理器至网盘controlnet-union-sdxl-1.0_promax.safetensors
 -  promax版本可同时实现线稿，深度，姿势，软边缘，不必下载任何XL ControlNet模型
-   
-### 2025/10/18 ：webui更新至sd-webui-forge-aki-v4.2 
+- 2025/10/18 ：webui更新至sd-webui-forge-aki-v4.2 
 - 更新了diffusers==0.36.0.dev0
 - 借鉴comfyui中nunchaku量化库安装了nunchaku加速轮子大大提高了qwen模型生成速度
 - 多模态插件12 更新了qwen-image ControlNet，同时实现了深度，姿势，线稿，软边缘https://github.com/exo101/sd-webui-MultiModal
