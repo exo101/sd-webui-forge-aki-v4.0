@@ -4,9 +4,10 @@
 ## 系统要求
 
 - 显卡：最低推荐 NVIDIA RTX 3060 /中端NVIDIA RTX 4070/中高端NVIDIA RTX 5070ti
-- 显存：至少 12GB
-- 内存：推荐 32/64GB 
-     
+- 显存：至少 12GB，内存：至少32/64GB
+  
+## 更新内容   
+
 - 2025/10/24 webui frogr 整合包更新之4.4版本，更新完善qwen-image ControlNet实现多个变体预处理器
 - 支持qwen3VL需要transformers==4.57.0，但会牺牲Index-TTS2语音合成功能使用，因为Index-TTS2需要的是transformers==4.52.1版本，两者存在冲突
 
@@ -29,8 +30,6 @@
  
 | `qwen-image-edit2509\qwen-image\`|` qwen-image-ControlNet`| `qwenVL` | `Index-TTS2` | `qwenVL` | `LatentSync` | `Ollama` |
 | `deepseek` | `Segment Anything` | `FLUX.1-Kontext` | `FLUX` | `XL` | `XL ControlNet` |`不支持FLUX ControlNet` |
-
-## 界面介绍
 
 ### GPU 显存管理
 GPU Weights (MB)滑动条的数值就是显存的容量：
