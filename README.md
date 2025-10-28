@@ -63,24 +63,24 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 
 
 ## 各类模型加载方式
-
+  示例视频：https://www.bilibili.com/video/BV1HseizrEQs?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37
+  
 ### FLUX模型加载方式
-需要以下模型文件：
-- 主模型: `flux1-dev-fp8.safetensors`         目录| `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
+  需要以下模型文件：
+- 主模型: `flux1-dev-fp8.safetensors`          目录| `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
 - 文本编码模型: `t5xxl_fp8_e4m3fn.safetensors` 目录| `sd-webui-forge-aki-v4.0\models\VAE` |
-- CLIP模型: `clip_l.safetensors`              目录| `sd-webui-forge-aki-v4.0\models\VAE` |
-- VAE模型: `flux-ae.safetensors`              目录| `sd-webui-forge-aki-v4.0\models\VAE` |
+- CLIP模型: `clip_l.safetensors`               目录| `sd-webui-forge-aki-v4.0\models\VAE` |
+- VAE模型: `flux-ae.safetensors`               目录| `sd-webui-forge-aki-v4.0\models\VAE` |
 - flux参数设置：采样方法Euler，调度器Simple， CFG引导数3.5，迭代步数20-35
 <img width="1600" height="95" alt="24" src="https://github.com/user-attachments/assets/c94d496a-ad36-4218-9803-8fdaa986677e" />
-
 <img width="910" height="348" alt="123" src="https://github.com/user-attachments/assets/2f0b6081-ba91-454c-a4ef-8136f43a0373" />
 
-
 ### XL模型加载方式
+
 - 主模型（约6GB)Dream Anime XL _ 筑梦动漫XL_v2.0 - 漫笔爱恋 目录 | `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
-- VAE模型: `sdxl_vae.safetensors`目录 | `sd-webui-forge-aki-v4.0\models\VAE` |
+- VAE模型: `sdxl_vae.safetensors`                          目录 | `sd-webui-forge-aki-v4.0\models\VAE` |
 - XL参数设置：采样方法DPM++ 2M SDE，调度器Karras， CFG引导数7，迭代步数20-35
-<img width="1092" height="810" alt="25" src="https://github.com/user-attachments/assets/c52b9db3-fcc7-4c58-8434-adc0a306a6b6" />
+  <img width="1092" height="810" alt="25" src="https://github.com/user-attachments/assets/c52b9db3-fcc7-4c58-8434-adc0a306a6b6" />
 
 ### 1.5模型
 - 主模型（约2.3GB) hellopure_V30a 目录 | `sd-webui-forge-aki-v4.0\models\Stable-diffusion` |
@@ -88,13 +88,14 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 - VAE模型: `vae-ft-mse-840000-ema-pruned.safetensors`目录| `sd-webui-forge-aki-v4.0\models\VAE` |
   
 ### 高清放大模型参数设置
+
 低配置用户需要调低基础尺寸，开启放大2倍，如果基础尺寸很大，放大倍数就要调低，模型参数越大放大的尺寸需要的显存压力也会越大
 <img width="880" height="187" alt="22" src="https://github.com/user-attachments/assets/d9936900-fea9-43e8-928d-bf1ef6721582" />
 
 ### ControlNet使用说明
 
  如 control_v11p_sd15s2_lineart_anime.pth标识带有sd15就是1.5模型使用的，而1.5大模型只有2gb左右
-如 controlnet-union-sdxl-1.0_promax.safetensors标识sdxl就是XL模型使用的，而XL模型大约6gb左右
+ 如 controlnet-union-sdxl-1.0_promax.safetensors标识sdxl就是XL模型使用的，而XL模型大约6gb左右
 
 在我视频简介下方提供的下载链接中提供的controlnet模型和预处理器是不全的，缺少的自行下载，我下载的是常用的，不常用的就没有下载
 
