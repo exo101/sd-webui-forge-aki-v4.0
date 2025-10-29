@@ -6,19 +6,29 @@
 - 显卡：最低推荐 NVIDIA RTX 3060 /中端NVIDIA RTX 4070/中高端NVIDIA RTX 5070ti
 - 显存：至少 12GB，内存：至少32/64GB
   
-## 更新内容   
+## 更新内容
 
-- 2025/10/24 webui frogr 整合包更新之4.4版本，更新完善qwen-image ControlNet实现多个变体预处理器
+2025/10/29
+- 更新至sd-webui-forge-aki-v4.5版本
+- 增加qwen-image lora功能实现，qwen-image ControlNet分类多变体预处理器，排除不支持的类别防止误操作
+- 更新了nunchaku加速轮子版本，已修改diffusion底层代码，后续有时间会全面应用插件中，nunchaku版本模型大幅降低flux模型生成时间
+- 
+2025/10/24 
+- sd-webui-forge-aki-v4.4版本
+- 更新完善qwen-image ControlNet实现多个变体预处理器
 - 支持qwen3VL需要transformers==4.57.0，但会牺牲Index-TTS2语音合成功能使用，因为Index-TTS2需要的是transformers==4.52.1版本，两者存在冲突
 
-- 2025/10/20：webui更新至webui-forge-aki-v4.3版本
+2025/10/20
+- 更新至webui-forge-aki-v4.3版本
 - 修复 1.5 ControlNet与XL ControlNet 预处理器bug，promax版本可同时实现线稿，深度，姿势，软边缘，不必下载任何XL ControlNet模型
 - 添加了综合性XL ControlNet 模型以及预处理器至网盘controlnet-union-sdxl-1.0_promax.safetensors
- 
-- 2025/10/18 ：webui更新至sd-webui-forge-aki-v4.2， 更新了diffusers==0.36.0.dev0
-- 借鉴comfyui中nunchaku量化库安装了nunchaku加速轮子大大提高了qwen模型生成速度
+  
+2025/10/18 
+- 更新至sd-webui-forge-aki-v4.2
+- 更新了diffusers==0.36.0.dev0
+- 增加nunchaku量化库安装了加速轮子大大提高了qwen模型生成速度
 - 多模态插件12 更新了qwen-image ControlNet，同时实现了深度，姿势，线稿，软边缘https://github.com/exo101/sd-webui-MultiModal
-- ControlNet模块不支持FLUX ControlNet模型，新整合包修复了ADetailer修脸插件，wd1.4标签器等bug。
+- ControlNet模块不支持FLUX ControlNet模型，新整合包修复了ADetailer修脸插件，wd1.4标签器等bug
 
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，好理解，适合入门，熟悉之后再接触ComfyUI更为合适。
 
