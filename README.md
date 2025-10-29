@@ -12,7 +12,7 @@
 - 更新至sd-webui-forge-aki-v4.5版本
 - 增加qwen-image lora功能实现，qwen-image ControlNet分类多变体预处理器，排除不支持的类别防止误操作
 - 更新了nunchaku加速轮子版本，已修改diffusion底层代码，后续有时间会全面应用插件中，nunchaku版本模型大幅降低flux模型生成时间
-- 
+  
 2025/10/24 
 - sd-webui-forge-aki-v4.4版本
 - 更新完善qwen-image ControlNet实现多个变体预处理器
