@@ -16,7 +16,9 @@
 2025/10/24 
 - sd-webui-forge-aki-v4.4版本
 - 更新完善qwen-image ControlNet实现多个变体预处理器
-- 支持qwen3VL需要transformers==4.57.0，但会牺牲Index-TTS2语音合成功能使用，因为Index-TTS2需要的是transformers==4.52.1版本，两者存在冲突
+- 支持qwen3VL需要transformers==4.57.0版本，但会牺牲Index-TTS2语音合成功能使用
+- Index-TTS2需要transformers==4.52.1版本，但会牺牲qwen3VL，两者存在冲突
+- 修改根目录requirements_versions配置文件transformers版本即可
 
 2025/10/20
 - 更新至webui-forge-aki-v4.3版本
