@@ -23,7 +23,8 @@
 - 1.安装使用7z2501-x64.exe压缩软件进行解压整合包
 - 2.首次使用整合包需要安装启动器运行依赖-dotnet-6.0.11.exe
 - 3.整合包自带虚拟环境python，git，cuda，xFormers，PyTorch，transformers，无需下载依赖任何文件
-- <img width="1299" height="717" alt="888888" src="https://github.com/user-attachments/assets/5ee05d01-d04c-4bb1-b9fa-58fa1e3b6b7d" />
+- <img width="1394" height="650" alt="354546" src="https://github.com/user-attachments/assets/ebd7c551-6ad9-4a34-819d-33b197a5055f" />
+
 
 
 | 类型 | 目录路径 |
