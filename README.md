@@ -21,16 +21,8 @@
 - 1.安装使用7z2501-x64.exe压缩软件进行解压整合包
 - 2.首次使用整合包需要安装启动器运行依赖-dotnet-6.0.11.exe
 - 3.整合包自带虚拟环境python，git，cuda，xFormers，PyTorch，transformers，无需下载依赖任何文件
-- <img width="1318" height="746" alt="2524534" src="https://github.com/user-attachments/assets/90678b2b-915b-4d68-b9ee-daedbce4fd16" />
+- <img width="1299" height="717" alt="888888" src="https://github.com/user-attachments/assets/5ee05d01-d04c-4bb1-b9fa-58fa1e3b6b7d" />
 
-### GPU 显存管理
-- GPU Weights(MB)滑动条数值是显存的容量
-- 往左滑动是模型权重加载，往右是模型计算空间
-- 正常情况下，右滑动过半，留出20%-40%的计算空间
-- 如果模型权重预留的空间不足，模型会加载失败
-- 如果模型计算空间不足，会生成时间变慢，程序崩溃爆显存
-
-<img width="1720" height="165" alt="11" src="https://github.com/user-attachments/assets/45008dd6-cb33-41f4-b9a2-a312d388cc61" />
 
 | 类型 | 目录路径 |
 |---------|---------|
@@ -43,6 +35,9 @@
 | 插件目录 | `sd-webui-forge-aki-v4.5\extensions` |
 | 图像输出目录 | `sd-webui-forge-aki-v4.5\outputs` |
 | ps ai插件目录 |`ps2023\Adobe Photoshop 2023\Plug-ins` |
+| Ollama图像识别程序|`OllamaSetup.exe` |
+| 整合合包解压软件|`7z2501-x64.exe` |
+| 默认安装至C盘|`启动器运行依赖-dotnet-6.0.11.exe` |
   
 ## 更新内容
 
@@ -75,8 +70,14 @@
 - 多模态插件12 更新了qwen-image ControlNet，同时实现了深度，姿势，线稿，软边缘
 - ControlNet模块不支持FLUX ControlNet模型，新整合包修复了ADetailer修脸插件，wd1.4标签器等bug
 
+### GPU 显存管理
+- GPU Weights(MB)滑动条数值是显存的容量
+- 往左滑动是模型权重加载，往右是模型计算空间
+- 正常情况下，右滑动过半，留出20%-40%的计算空间
+- 如果模型权重预留的空间不足，模型会加载失败
+- 如果模型计算空间不足，会生成时间变慢，程序崩溃爆显存
 
-
+<img width="1720" height="165" alt="11" src="https://github.com/user-attachments/assets/45008dd6-cb33-41f4-b9a2-a312d388cc61" />
 
 ## 各类模型加载方式
   示例视频：https://www.bilibili.com/video/BV1HseizrEQs?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37
