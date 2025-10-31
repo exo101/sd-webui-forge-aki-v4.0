@@ -26,6 +26,11 @@
   
 ## 更新内容
 
+ 2025/10/31
+- 添加nunchaku-qwen-image-edit-2509 lora功能加载
+- 添加一致性场景lora模型，pytorch_lora_weights.safetensors
+- qwen-image文生图模型lora，也可以应用到编辑模型当中
+  
 2025/10/29
 - 更新至sd-webui-forge-aki-v4.5版本
 - 增加qwen-image lora功能实现，qwen-image ControlNet分类多变体预处理器，排除不支持的类别防止误操作
