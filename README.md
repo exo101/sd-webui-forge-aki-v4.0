@@ -64,9 +64,8 @@ GPU Weights (MB)滑动条的数值就是显存的容量：
 | ControlNet预处理器 | `sd-webui-forge-aki-v4.0\models\ControlNetPreprocessor` |
 | 插件目录 | `sd-webui-forge-aki-v4.0\extensions` |
 | 图像输出目录 | `sd-webui-forge-aki-v4.3\outputs` |
-| 修脸插件模型目录 |`sd-webui-forge-aki-v4.3\models\adetailer` |
 | ps ai插件目录 |`ps2023\Adobe Photoshop 2023\Plug-ins` |
-| 换脸插件目录 |`sd-webui-forge-aki-v4.4\extensions\sd-webui-reactor` |
+
 
 - 1.安装使用7z2501-x64.exe压缩软件进行解压整合包
 - 2.首次使用整合包需要安装启动器运行依赖-dotnet-6.0.11.exe
