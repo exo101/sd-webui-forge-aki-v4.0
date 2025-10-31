@@ -38,7 +38,7 @@
 | 图像输出目录 | `sd-webui-forge-aki-v4.5\outputs` |
 | ps ai插件目录 |`ps2023\Adobe Photoshop 2023\Plug-ins` |
 | Ollama图像识别程序|`OllamaSetup.exe` |
-| 整合合包解压软件|`7z2501-x64.exe` |
+| 整合包解压软件|`7z2501-x64.exe` |
 | 默认安装至C盘|`启动器运行依赖-dotnet-6.0.11.exe` |
   
 ## 更新内容
