@@ -17,14 +17,15 @@
 
 ## 下载地址可查看个人主页视频简介下方：
 
-[https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805)
+[https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?
 
 
 - 1.安装使用7z2501-x64.exe压缩软件进行解压整合包
 - 2.首次使用整合包需要安装启动器运行依赖-dotnet-6.0.11.exe
 - 3.整合包自带虚拟环境python，git，cuda，xFormers，PyTorch，transformers，无需下载依赖任何文件
-- 每次更新整合包版本只需迁移根目录下moders目录，其余内容全部删除
+- 4.每次更新整合包版本只需迁移根目录下moders目录，其余内容全部删除
 - <img width="1394" height="650" alt="354546" src="https://github.com/user-attachments/assets/ebd7c551-6ad9-4a34-819d-33b197a5055f" />
+  spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805) 
 
 
 
