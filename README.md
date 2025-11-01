@@ -1,4 +1,4 @@
-# Stable Diffusion WebUI Forge 整合包使用说明
+<img width="869" height="890" alt="234654365" src="https://github.com/user-attachments/assets/1bb8d31d-d233-4158-adf1-8183f61dab5f" /># Stable Diffusion WebUI Forge 整合包使用说明
 旧整合包已不适用日益更新的AI应用与50系显卡，为此我更新了新整合包环境，补充落后的webui Forge生态
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，直观好理解，适合入门
 
@@ -17,15 +17,17 @@
 
 ## 下载地址可查看个人主页视频简介下方：
 
-[https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?
+[https://www.bilibili.com/video/BV1BCHXzJE1C/?spm_id_from=333.788.videopod.sections&vd_source=343e49b703fb5b4137cd6c1987846f37](https://www.bilibili.com/video/BV1FWtBzbEiR?spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805) 
 
 
 - 1.安装使用7z2501-x64.exe压缩软件进行解压整合包
 - 2.首次使用整合包需要安装启动器运行依赖-dotnet-6.0.11.exe
 - 3.整合包自带虚拟环境python，git，cuda，xFormers，PyTorch，transformers，无需下载依赖任何文件
 - 4.每次更新整合包版本只需迁移根目录下moders目录，其余内容全部删除
+- <img width="869" height="890" alt="234654365" src="https://github.com/user-attachments/assets/82000a00-fb63-4581-9dbc-a442609dc605" />
+
 - <img width="1394" height="650" alt="354546" src="https://github.com/user-attachments/assets/ebd7c551-6ad9-4a34-819d-33b197a5055f" />
-  spm_id_from=333.788.player.switch&vd_source=343e49b703fb5b4137cd6c1987846f37&trackid=web_related_0.router-related-2206419-r6wc2.1760535637914.805) 
+  
 
 
 
