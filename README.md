@@ -33,6 +33,7 @@
 | LoRA模型 | `sd-webui-forge-aki-v4.5\models\Lora` |
 | VAE模型 | `sd-webui-forge-aki-v4.5\models\VAE` |
 | 高清放大模型 | `sd-webui-forge-aki-v4.5\models\RealESRGAN` |
+| 高清放大模型 |`sd-webui-forge-aki-v4.5\models\ESRGAN` |
 | ControlNet模型 | `sd-webui-forge-aki-v4.5\models\ControlNet` |
 | ControlNet预处理器 | `sd-webui-forge-aki-v4.5\models\ControlNetPreprocessor` |
 | 插件目录 | `sd-webui-forge-aki-v4.5\extensions` |
