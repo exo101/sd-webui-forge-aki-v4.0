@@ -1,4 +1,5 @@
-<img width="869" height="890" alt="234654365" src="https://github.com/user-attachments/assets/1bb8d31d-d233-4158-adf1-8183f61dab5f" /># Stable Diffusion WebUI Forge 整合包使用说明
+# Stable Diffusion WebUI Forge 整合包使用说明
+
 旧整合包已不适用日益更新的AI应用与50系显卡，为此我更新了新整合包环境，补充落后的webui Forge生态
 对于ComfyUI复杂的节点连线式操作界面，对新手确实不太好学习。WebUI Forge更加易操作，直观好理解，适合入门
 
