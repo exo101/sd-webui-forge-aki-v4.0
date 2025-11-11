@@ -125,8 +125,6 @@
 
 在我视频简介下方提供的下载链接中提供的controlnet模型和预处理器是不全的，缺少的自行下载，我下载的是常用的，不常用的就没有下载
 
-<img width="675" height="375" alt="31354" src="https://github.com/user-attachments/assets/24587b4e-c8d9-4c07-a92f-914f57be66db" />
-
 <img width="859" height="766" alt="123123" src="https://github.com/user-attachments/assets/f516969f-5cb4-4aab-a812-437e751d5520" />
 
 推荐使用controlnet-union-sdxl-1.0_promax.safetensors，这是一个综合型ControlNet模型，包括了深度，线稿，open pose
