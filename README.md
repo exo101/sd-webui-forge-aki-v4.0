@@ -49,7 +49,7 @@
 | 默认安装至C盘|`启动器运行依赖-dotnet-6.0.11.exe` |
   
 ## 更新内容
-2025/10/31
+2025/11/14
 - 整合包增加了ui交互指南，降低了使用难度，参数科普，各类模型加载方式，快捷描述方式
 - 增加FLUX加速lora放到了网盘插件模型的lora目录中，Hyper-FLUX.1-dev-8steps-lora，大大降低生成时间
 - <img width="1852" height="538" alt="QQ20251114-221008" src="https://github.com/user-attachments/assets/94e8a632-1052-4c62-b652-2b1ee0748ee3" />
